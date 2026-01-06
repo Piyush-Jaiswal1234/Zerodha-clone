@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import HomePage from './Landing_page/Home/HomePage';
+import Homepage from './Landing_page/Home/Homepage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <HomePage />
+      <Homepage />
   </React.StrictMode>
 );
