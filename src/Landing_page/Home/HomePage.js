@@ -13,10 +13,9 @@ function Homepage() {
         <>
             <Navbar />
             <Hero />
-            <Awards />
-            <Education />
-            <Pricing />
             <Stats />
+            <Pricing />
+            <Education />
             <OpenAccount />
             <Footer />
         </>
