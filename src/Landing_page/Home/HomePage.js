@@ -11,13 +11,11 @@ import Navbar from '../Navbar';
 function Homepage() {
     return ( 
         <>
-            <Navbar />
             <Hero />
             <Stats />
             <Pricing />
             <Education />
             <OpenAccount />
-            <Footer />
         </>
      );
 }

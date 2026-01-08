@@ -1,15 +1,15 @@
 import React from 'react';
 
+import Brokerage from './Brokerage';
 import Hero from './Hero';
-import Team from './Team';
 
-function Aboutpage() {
+function PricingPage() {
     return ( 
         <>
+            <Brokerage />
             <Hero />
-            <Team />
         </>
      );
 }
 
-export default Aboutpage;
+export default PricingPage;
